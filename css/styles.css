@@ -16,6 +16,17 @@ h2 {
   margin: 0 100px;
 }
 
+body::-webkit-scrollbar {
+  background-color: #f1f1f1;
+  width: 13px;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 10px;
+}
+
 .close-btn {
   border: none;
   border-radius: 8px;
