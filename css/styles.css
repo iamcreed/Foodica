@@ -243,6 +243,7 @@ body::-webkit-scrollbar-thumb {
   margin-right: 20px;
 }
 
+/* Added a class selector to the heading */
 .heading {
   margin-top: 70px;
 }
@@ -301,6 +302,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 30px;
 }
 
+/* Corrected the selectors */
 .search-btn {
   background-color: orange;
   color: white;
@@ -327,10 +329,8 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid orange;
 }
 
+/* Removed duplicated selector and fixed the margin */
 .search-result-text {
   margin-top: 60px;
-}
-
-.search-result-text {
   margin-bottom: 30px;
 }
